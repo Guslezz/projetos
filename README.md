@@ -246,3 +246,75 @@ Relatórios mensais de serviços e faturamento.
 Neste projeto, foi possível aplicar conceitos fundamentais de modelagem de dados e praticar a implementação de um banco relacional do início ao fim. Além disso, foram desenvolvidas habilidades na construção de consultas SQL mais avançadas para análise e tomada de decisão baseada em dados.
 
 
+projeto final (DASHBOARD)
+# 📊 Projeto de Dashboard de Vendas no Excel
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com o intuito de **transformar uma base de dados bruta em um dashboard de vendas interativo no Excel**, facilitando a visualização dos principais indicadores de desempenho. O objetivo é permitir uma **análise rápida, clara e eficiente** dos dados de vendas por meio de gráficos, tabelas e segmentações.
+
+A proposta atende ao desafio de criar uma solução visual dentro do Excel que apoie a **tomada de decisões baseadas em dados**.
+
+---
+
+## 🧾 Explicação dos Dados Utilizados
+
+Os dados utilizados estão presentes no arquivo `base.xlsx`. Essa base contém informações reais ou simuladas relacionadas ao processo de vendas, incluindo:
+
+- **Data da venda**  
+- **Produto**  
+- **Categoria**  
+- **Região de venda**  
+- **Quantidade vendida**  
+- **Preço unitário**  
+- **Receita total**
+
+Essas informações foram organizadas, tratadas e utilizadas para criar tabelas dinâmicas, gráficos e filtros que compõem o dashboard.
+
+---
+
+## 📌 Funcionalidades do Dashboard
+
+O dashboard final foi desenvolvido no arquivo `dashboard_xbox_finalizado.xlsx` e inclui:
+
+- Indicadores de **total de vendas**, **quantidade total vendida** e **ticket médio**
+- **Gráficos dinâmicos** para análise de vendas por categoria, por região e ao longo do tempo
+- **Segmentações (filtros visuais)** que permitem interagir com os dados e personalizar as análises por:
+  - Produto
+  - Região
+  - Período (data)
+
+---
+
+## 🔄 Instruções para Reprodução
+
+Caso deseje visualizar ou testar o dashboard, siga os passos abaixo:
+
+1. **Baixe os arquivos do repositório**:
+   - `base.xlsx` (contém os dados brutos)
+   - `dashboard_xbox_finalizado.xlsx` (contém o dashboard já montado)
+
+2. **Abra o arquivo `dashboard_xbox_finalizado.xlsx`** no **Microsoft Excel 365** (ou uma versão que suporte Tabelas Dinâmicas e Segmentações).
+
+3. Para testar a atualização do dashboard:
+   - Modifique alguns valores na base de dados (por exemplo, quantidade ou receita).
+   - Clique com o botão direito em uma Tabela Dinâmica ou gráfico e selecione **"Atualizar"**.
+
+4. Use os filtros (segmentações) para explorar diferentes cenários, como:
+   - Vendas por produto
+   - Comparação de regiões
+   - Evolução de vendas ao longo do tempo
+
+---
+
+## 📁 Estrutura do Repositório
+
+- `README.md`: explicação do projeto (este arquivo)
+- `base.xlsx`: arquivo com os dados brutos utilizados
+- `dashboard_xbox_finalizado.xlsx`: dashboard finalizado e pronto para uso
+
+---
+
+## 📌 Considerações Finais
+
+Este projeto foi criado como parte de um desafio prático com foco em **organização visual, análise de dados e usabilidade** no Excel. A proposta é mostrar como é possível gerar **insights valiosos** com ferramentas simples e acessíveis.
